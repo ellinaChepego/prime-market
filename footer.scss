@@ -1,0 +1,65 @@
+// ПЕРЕМЕННЫЕ ДЛЯ ЦВЕТОВ
+$primary: #2D935D;
+$accent: #ff4d4d;
+$dark: #222;
+$gray: #888;
+$white: #ffffff;
+
+// ПОДВАЛ (SCSS)
+.footer {
+    flex-shrink: 0;
+    background: $dark;
+    color: $white;
+    padding: 40px 0 20px;
+    margin-top: 50px;
+
+    .footer-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 40px;
+    }
+
+    h3 {
+        color: $primary;
+        margin-bottom: 20px;
+    }
+
+    ul {
+        list-style: none;
+
+        li {
+            margin-bottom: 10px;
+        }
+    }
+
+    a {
+        color: #ccc;
+        text-decoration: none;
+
+        &:hover {
+            color: $primary;
+        }
+    }
+
+    .footer-bottom {
+        border-top: 1px solid #444;
+        padding-top: 20px;
+        text-align: center;
+        font-size: 14px;
+        color: $gray;
+        margin-top: 30px;
+    }
+}
+.footer-title {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #2D935D;
+}
+.footer-links-title,
+.footer-contacts-title {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #2D935D;
+}

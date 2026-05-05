@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<products>
+
+    <product id="1" on-sale="false">
+        <name>Бананы</name>
+        <brand>GlobalFruit</brand>
+        <price>6</price>
+        <old-price>0</old-price>
+        <image>img/бананы.avif</image>
+        <description>Спелые и сладкие бананы из Эквадора.</description>
+        <specs>Вес: 1 кг, Страна: Эквадор</specs>
+    </product>
+
+    <product id="2" on-sale="false">
+        <name>Молоко</name>
+        <brand>Савушкин</brand>
+        <price>3</price>
+        <old-price>0</old-price>
+        <image>img/молоко.avif</image>
+        <description>Свежее молоко 3.2% жирности.</description>
+        <specs>Объем: 1 л, Жирность: 3.2%</specs>
+    </product>
+
+    <product id="3" on-sale="false">
+        <name>Красные яблоки</name>
+        <brand>Местный фермер</brand>
+        <price>5</price>
+        <old-price>0</old-price>
+        <image>img/яблоки.avif</image>
+        <description>Сочные красные яблоки.</description>
+        <specs>Вес: 1 кг, Сорт: Ред Делишес</specs>
+    </product>
+
+    <product id="4" on-sale="false">
+    <name>Хлеб Цельнозерновой</name>
+    <brand>Пекарь №1</brand>
+    <price>3</price>
+    <old-price>0</old-price>
+    <image>img/хлеб.webp</image>
+    <description>Полезный цельнозерновой хлеб с семечками.</description>
+    <specs>Вес: 400 г</specs>
+    </product>
+
+    <product id="5" on-sale="true">
+        <name>Лосось слабосоленый</name>
+        <brand>SeaFood</brand>
+        <price>24</price>
+        <old-price>35</old-price>
+        <image>img/лосось.jpg</image>
+        <description>Нежный слабосоленый лосось.</description>
+        <specs>Вес: 300 г</specs>
+    </product>
+
+    <product id="6" on-sale="true">
+        <name>Сыр Пармезан</name>
+        <brand>ItalianCheese</brand>
+        <price>18</price>
+        <old-price>28</old-price>
+        <image>img/сыр.jpeg</image>
+        <description>Твердый сыр Пармезан.</description>
+        <specs>Вес: 200 г</specs>
+    </product>
+
+    <product id="7" on-sale="true">
+        <name>Мед цветочный</name>
+        <brand>Пасека</brand>
+        <price>12</price>
+        <old-price>18</old-price>
+        <image>img/мед.webp</image>
+        <description>Натуральный цветочный мед.</description>
+        <specs>Объем: 500 г</specs>
+    </product>
+
+    <product id="8" on-sale="true">
+        <name>Авокадо</name>
+        <brand>GreenFruit</brand>
+        <price>5</price>
+        <old-price>8</old-price>
+        <image>img/авокадо.jpg</image>
+        <description>Спелые авокадо из Перу.</description>
+        <specs>Вес: 1 шт</specs>
+    </product>
+
+    <product id="9" on-sale="false">
+        <name>Багет Французский</name>
+        <brand>Пекарь №1</brand>
+        <price>2.5</price>
+        <old-price>0</old-price>
+        <image>img/багет.webp</image>
+        <description>Хрустящий багет</description>
+        <specs>Вес: 300 г</specs>
+    </product>
+
+    <product id="10" on-sale="false">
+        <name>Бородинский хлеб</name>
+        <brand>Хлебзавод</brand>
+        <price>2.8</price>
+        <old-price>3.5</old-price>
+        <image>img/бородинский.jpg</image>
+        <description>Ржаной хлеб</description>
+        <specs>Вес: 400 г</specs>
+    </product>
+
+    <product id="11" on-sale="false">
+        <name>Пшеничный хлеб</name>
+        <brand>Домашний</brand>
+        <price>2.2</price>
+        <old-price>0</old-price>
+        <image>img/пшеничный.png</image>
+        <description>Для тостов</description>
+        <specs>Вес: 350 г</specs>
+    </product>
+
+    <product id="12" on-sale="false">
+        <name>Ржаной хлеб</name>
+        <brand>Пекарь №1</brand>
+        <price>3.2</price>
+        <old-price>4</old-price>
+        <image>img/ржаной.webp</image>
+        <description>Сладковатый вкус</description>
+        <specs>Вес: 400 г</specs>
+    </product>
+
+</products>

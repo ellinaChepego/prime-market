@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prime Market — Главная</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="footer.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo-wrapper">
+                <img src="img/logo.svg" alt="Лого">
+                <a href="index.html" class="logo">PRIME MARKET</a>
+            </div>
+           <div class="search-bar">
+                <input type="text" id="searchInput" placeholder="Поиск продуктов...">
+                <button id="searchBtn">Найти</button>
+            </div>
+           <button class="mobile-menu-btn" id="burger">☰</button>
+            <nav class="nav-icons" id="navMenu">
+                <a href="sales.html" style="color: #ff4d4d;">Акции</a>
+                <a href="favorites.html">Избранное</a>
+                <a href="cart.html" class="cart-link">Корзина <b id="cart-count">0</b></a>
+                <a href="account.html">Аккаунт</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="product-grid">
+            <h2>Популярные товары</h2>
+            <!-- Товар 1 - Бананы -->
+            <article class="product-card" data-id="1">
+                <button class="add-to-fav" data-id="1">❤</button>
+                <img src="img/бананы.avif" alt="Бананы">
+                <h3>Бананы</h3>
+                <p>GlobalFruit</p>
+                <div class="price">6 бел руб</div>
+                <button class="btn-main add-to-cart" data-id="1">В корзину</button>
+            </article>
+
+            <!-- Товар 2 - Молоко -->
+            <article class="product-card" data-id="2">
+                <button class="add-to-fav" data-id="2">❤</button>
+                <img src="img/молоко.avif" alt="Молоко">
+                <h3>Молоко</h3>
+                <p>Савушкин</p>
+                <div class="price">3 бел руб</div>
+                <button class="btn-main add-to-cart" data-id="2">В корзину</button>
+            </article>
+
+            <!-- Товар 3 - Яблоки -->
+            <article class="product-card" data-id="3">
+                <button class="add-to-fav" data-id="3">❤</button>
+                <img src="img/яблоки.avif" alt="Яблоки">
+                <h3>Красные яблоки</h3>
+                <p>Местный фермер</p>
+                <div class="price">5 бел руб</div>
+                <button class="btn-main add-to-cart" data-id="3">В корзину</button>
+            </article>
+
+            <!-- Товар 4 - Хлеб -->
+            <article class="product-card" data-id="4">
+                <button class="add-to-fav" data-id="4">❤</button>
+                <img src="img/хлеб.webp" alt="Хлеб">
+                <h3>Хлеб Цельнозерновой</h3>
+                <p>Пекарь №1</p>
+                <div class="price">3 бел руб</div>
+                <button class="btn-main add-to-cart" data-id="4">В корзину</button>
+            </article>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <div class="footer-title">Prime Market</div>
+                    <p>Свежие продукты с доставкой на дом. Мы заботимся о качестве каждого товара.</p>
+                </div>
+                 <div class="footer-links">
+    <div class="footer-links-title">Навигация</div>
+    <ul>
+        <li><a href="index.html">Каталог</a></li>
+        <li><a href="favorites.html">Избранное</a></li>
+        <li><a href="cart.html">Корзина</a></li>
+    </ul>
+</div>
+<div class="footer-contacts">
+    <div class="footer-contacts-title">Контакты</div>
+    <p>Минск, Свердлова 13а</p>
+    <p>+375 (29) 111-22-33</p>
+</div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Prime Market. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
